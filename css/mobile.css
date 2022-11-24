@@ -1,0 +1,69 @@
+/* MOBILE & UNDER*/
+@media screen and (max-width: 768px) {
+  /* STYLING FOR BANNER */
+  .banner-text h1 {
+    font-size: 30px;
+  }
+
+  .banner-text p {
+    font-size: 20px;
+  }
+
+  /* STYLING FOR NAV-BAR */
+  .nav-container {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .nav-container a:link,
+  .nav-container a:visited {
+    width: 60%;
+  }
+
+  /* STYLING FOR ABOUT */
+  .about-container {
+    grid-template-columns: 100%;
+    gap: 24px;
+  }
+
+  /* STYLING FOR JOB INFO */
+  .job-info-container {
+    grid-template-columns: 100%;
+  }
+
+  .certificate-content {
+    grid-template-columns: 100%;
+  }
+
+  .certificate-content-2 {
+    position: relative;
+  }
+
+  .certificate-content-2::after {
+    width: auto;
+    height: 1px;
+    top: -24px;
+    left: -10px;
+    right: -10px;
+  }
+
+  /* STYLING FOR PROJECT */
+  .project-container-content {
+    grid-template-columns: 100%;
+    gap: 24px;
+  }
+
+  .project-user-lamp {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /* STYLING FOR FOOTER */
+  .footer-container ul {
+    gap: 20px;
+  }
+
+  .footer-container ul li {
+    flex-direction: column;
+  }
+}

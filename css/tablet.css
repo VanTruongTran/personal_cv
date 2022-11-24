@@ -1,0 +1,80 @@
+/* TABLET & UNDER*/
+@media screen and (max-width: 1024px) {
+  /* GENERAL STYLE */
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .footer-container ul li {
+    font-size: 14px;
+  }
+
+  .article {
+    padding: 0 10px;
+  }
+
+  /* STYLING FOR BANNER */
+  #banner {
+    padding: 10px 10px 0px 10px;
+  }
+
+  /* STYLING FOR NAV-BAR */
+  .nav-container {
+    gap: 5px;
+  }
+
+  .nav-img-container {
+    display: none;
+  }
+
+  /* STYLING FOR ABOUT */
+  .about-container {
+    gap: 10px;
+  }
+
+  .about-target,
+  .about-info {
+    padding: 30px 24px;
+  }
+
+  /* STYLING FOR JOB INFO */
+  .job-info-container {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  .job-info-element-hobby {
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 0px;
+  }
+
+  .hobby-icon-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* STYLING FOR CERTIFICATE */
+  .certificate-content-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-content-1 img {
+    text-align: center;
+  }
+
+  /* STYLING FOR PROJECT */
+  .project-container-content {
+    gap: 10px;
+  }
+
+  .project-user-lamp {
+    flex-direction: column;
+    align-items: start;
+  }
+}
